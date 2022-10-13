@@ -1,0 +1,138 @@
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top:50px ;
+}
+
+p.bio{
+    text-align: center;
+}
+
+hr{
+    width:100px;
+    height: 2px;
+    background-color: #008000;
+    margin-bottom:50px;
+    margin-top:10px;
+}
+
+img.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1.name{
+    text-transform: uppercase;
+    font-size:1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top:20;
+}
+p{
+    font-size: 40px;;
+    
+}
+
+
+
+span.slogan{
+    display:block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:14px;
+    color:rgba(51, 51 , 51 , 0.7);
+    margin-bottom:35px;
+}
+
+.social-img ul{
+    margin:0;
+    text-align: center;
+    width:100%;
+    margin-bottom:50px;
+}
+
+.social-img ul li{
+    display:inline;
+    background:rgba(204,204,204,0.5);
+    padding:10px;
+    border-radius: 50%;
+    cursor:pointer;
+    transition:background 150ms ease-in-out;
+}
+
+.social-img ul li:hover{
+    background:#ccc;
+}
+
+h5{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top:50px;
+    margin-bottom:0px;
+    text-transform: uppercase;
+}
+.a{
+    position:relative;left:-35px;
+}
+
+.work{
+    margin-bottom:20px;
+    column-count: 2;
+    float:right;
+}
+.work1{
+    margin-bottom:20px;
+    column-count:3;
+   
+}
+.work2{
+    margin-bottom:40px;
+    column-count:3;
+    padding: 40px;
+
+}
+.Research{
+    float:center;
+}
+.h4{
+    text-transform: uppercase;
+    display:inline
+}
+.Ultra{
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
